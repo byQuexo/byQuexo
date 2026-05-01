@@ -1,8 +1,50 @@
-<h1 align="center">Hi 👋, I'm Tim</h1>
-<h3 align="center">Passionate software engineering student from Germany.</h3>
+<h1 align="center">Hey 👋 What's Up?</h1>
 
-- 🌱 I’m currently learning **Rust**
-- 🏢 Currently Working for **[ilert](https://github.com/iLert)** as an working student for AI Integration and Development 
+<p align="center">
+  AI Solution Engineer <a href="https://ilert.com">@ilert</a>
+</p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+###
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=rust" height="60" alt="rust logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="60" alt="amazonwebservices logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" height="60" alt="apachekafka logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/denojs/denojs-original.svg" height="60" alt="denojs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="60" alt="redis logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="60" alt="tensorflow logo"  />
+</div>
+
+###
+
+## 🚀 What I'm Working On
+
+- 🔔 Integrating LLMs into **alert & incident management** workflows at [ilert](https://ilert.com)
+
+## 🌟 Open Source Contributions
+
+Contributing to [**Rig**](https://github.com/0xPlaygrounds/rig) — a Rust library for building LLM-powered applications (7.1k ⭐):
+
+- 🐛 [**PR #1683**](https://github.com/0xPlaygrounds/rig/pull/1683) — Fixed AWS Bedrock streaming reasoning to preserve adaptive-thinking signatures, preventing dropped cryptographic signatures in multi-turn conversations with Claude models
+- 🔧 [**PR #1675**](https://github.com/0xPlaygrounds/rig/pull/1675) — Resolved two AWS Bedrock adaptive-thinking issues: cache point placement after reasoning blocks and empty-text reasoning conversion with signatures
+
+###
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=byQuexo&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=byQuexo&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+</div>
+
+###
+
+<img src="https://raw.githubusercontent.com/byQuexo/byQuexo/output/snake.svg" alt="Snake animation" />
+
+###
