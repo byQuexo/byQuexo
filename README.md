@@ -1,7 +1,7 @@
 <h1 align="center">Hey 👋 What's Up?</h1>
 
 <p align="center">
-  AI Solution Engineer <a href="https://ilert.com">@ilert</a>
+  Junior Software Engineer <a href="https://ilert.com">@ilert</a>
 </p>
 
 ###
