@@ -31,10 +31,11 @@
 
 ## 🌟 Open Source Contributions
 
-Contributing to [**Rig**](https://github.com/0xPlaygrounds/rig) — a Rust library for building LLM-powered applications (7.1k ⭐):
+Active contributor to [**Rig**](https://github.com/0xPlaygrounds/rig) (7.2k ⭐) — the Rust LLM framework powering [ilert AI](https://ilert.com)'s agentic LLM proxy:
 
-- 🐛 [**PR #1683**](https://github.com/0xPlaygrounds/rig/pull/1683) — Fixed AWS Bedrock streaming reasoning to preserve adaptive-thinking signatures, preventing dropped cryptographic signatures in multi-turn conversations with Claude models
-- 🔧 [**PR #1675**](https://github.com/0xPlaygrounds/rig/pull/1675) — Resolved two AWS Bedrock adaptive-thinking issues: cache point placement after reasoning blocks and empty-text reasoning conversion with signatures
+- 💰 [**PR #1725**](https://github.com/0xPlaygrounds/rig/pull/1725) — Exposed Mistral's cached & audio token fields in `Usage`, unblocking accurate cost tracking and prompt-cache observability for downstream consumers
+- 🐛 [**PR #1683**](https://github.com/0xPlaygrounds/rig/pull/1683) — Fixed AWS Bedrock streaming to preserve adaptive-thinking signatures, preventing dropped cryptographic signatures in multi-turn Claude conversations
+- 🔧 [**PR #1675**](https://github.com/0xPlaygrounds/rig/pull/1675) — Resolved two AWS Bedrock adaptive-thinking issues: cache-point placement after reasoning blocks and empty-text reasoning conversion with signatures
 
 ###
 
