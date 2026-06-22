@@ -8,7 +8,7 @@
 
 ```rust
 impl Engineer for ByQuexo {
-    const ROLE:  &str = "Junior Software Engineer @ ilert";
+    const ROLE:  &str = "Software Engineer @ ilert";
     const FOCUS: &str = "wiring LLMs into alert & incident response";
 
     fn stack(&self) -> Stack {

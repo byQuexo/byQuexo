@@ -13,7 +13,7 @@
     </filter>
 
     <clipPath id="l1" clipPathUnits="userSpaceOnUse"><rect x="30" y="70" height="30" width="252"><animate attributeName="width" from="0" to="252" begin="0.2s" dur="0.9s" fill="freeze"/></rect></clipPath>
-    <clipPath id="l2" clipPathUnits="userSpaceOnUse"><rect x="30" y="104" height="30" width="378"><animate attributeName="width" from="0" to="378" begin="1.2s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="l2" clipPathUnits="userSpaceOnUse"><rect x="30" y="104" height="30" width="300"><animate attributeName="width" from="0" to="300" begin="1.2s" dur="0.6s" fill="freeze"/></rect></clipPath>
     <clipPath id="l3" clipPathUnits="userSpaceOnUse"><rect x="30" y="148" height="30" width="322"><animate attributeName="width" from="0" to="322" begin="2.1s" dur="0.9s" fill="freeze"/></rect></clipPath>
     <clipPath id="l4" clipPathUnits="userSpaceOnUse"><rect x="30" y="182" height="30" width="400"><animate attributeName="width" from="0" to="400" begin="3.1s" dur="0.8s" fill="freeze"/></rect></clipPath>
     <clipPath id="l5" clipPathUnits="userSpaceOnUse"><rect x="30" y="226" height="30" width="190"><animate attributeName="width" from="0" to="190" begin="4.0s" dur="0.5s" fill="freeze"/></rect></clipPath>
@@ -37,7 +37,7 @@
     </text>
     <!-- L2: output -->
     <text y="124" clip-path="url(#l2)">
-      <tspan x="30" fill="#3fb950">↳ </tspan><tspan fill="#c9d1d9">Junior Software Engineer </tspan><tspan fill="#58a6ff">@ ilert</tspan>
+      <tspan x="30" fill="#3fb950">↳ </tspan><tspan fill="#c9d1d9">Software Engineer </tspan><tspan fill="#58a6ff">@ ilert</tspan>
     </text>
     <!-- L3: command -->
     <text y="168" clip-path="url(#l3)">
