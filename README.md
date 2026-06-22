@@ -90,14 +90,6 @@ Active contributor to [**Rig**](https://github.com/0xPlaygrounds/rig) (7.2k ⭐)
 -->
 
 <!-- ╔═══════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                     3D CONTRIBUTION CALENDAR                       ║ -->
-<!-- ╚═══════════════════════════════════════════════════════════════════╝ -->
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3d contribution calendar" />
-</div>
-
-<!-- ╔═══════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                       SNAKE ANIMATION                              ║ -->
 <!-- ╚═══════════════════════════════════════════════════════════════════╝ -->
 
