@@ -73,11 +73,6 @@ Active contributor to [**Rig**](https://github.com/0xPlaygrounds/rig) (7.2k ⭐)
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=byQuexo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=A855F7&icon_color=06B6D4&text_color=c9d1d9" alt="github stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=byQuexo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=c9d1d9&langs_count=8" alt="top languages" />
-</div>
-
-<div align="center">
   <img src="https://streak-stats.demolab.com?user=byQuexo&theme=tokyonight&hide_border=true&border_radius=8&background=0D1117&ring=A855F7&fire=06B6D4&currStreakLabel=A855F7" height="165" alt="streak" />
 </div>
 
