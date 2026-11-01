@@ -1,56 +1,52 @@
-<img src="./assets/terminal.svg" width="100%" alt="byQuexo@ilert terminal" />
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" /><img src="assets/hero-dark.svg" alt="AI/LLM Engineer @ ilert" width="100%" /></picture>
+</p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/byQuexo?style=flat-square&logo=github&logoColor=white&label=followers&labelColor=0d1117&color=3fb950" alt="followers" />
-  <img src="https://komarev.com/ghpvc/?username=byQuexo&style=flat-square&label=visitors&labelColor=0d1117&color=58a6ff" alt="visitors" />
-  <a href="https://ilert.com"><img src="https://img.shields.io/badge/on--call-@ilert-0375E5?style=flat-square&labelColor=0d1117" alt="ilert" /></a>
+  Production LLM agents for alerting and incident response at <a href="https://www.ilert.com">ilert</a>, Köln.<br />
+  Multi-agent / A2A · MCP · realtime voice · Rust LLM gateway · AWS Bedrock · evals and guardrails
 </p>
 
-```rust
-impl Engineer for ByQuexo {
-    const ROLE:  &str = "Software Engineer @ ilert";
-    const FOCUS: &str = "wiring LLMs into alert & incident response";
-
-    fn stack(&self) -> Stack {
-        Stack {
-            languages: vec![Rust, TypeScript, Python],
-            ml:        vec![PyTorch, TensorFlow],
-            infra:     vec![Aws, Kafka, Redis, Postgres, Docker],
-        }
-    }
-
-    fn currently(&self) -> &str {
-        "teaching on-call automation to reason with adaptive thinking"
-    }
-}
-```
-
-#### `byQuexo@ilert:~/oss$ git log --author=byQuexo --oneline`
-
-Contributing to [**Rig**](https://github.com/0xPlaygrounds/rig) — the Rust LLM framework (**7.2k ⭐**) powering [ilert AI](https://ilert.com)'s agentic LLM proxy:
-
-- [`#1725`](https://github.com/0xPlaygrounds/rig/pull/1725) &nbsp;expose Mistral's cached & audio token fields in `Usage` — unblocks accurate cost tracking + prompt-cache observability
-- [`#1683`](https://github.com/0xPlaygrounds/rig/pull/1683) &nbsp;preserve AWS Bedrock adaptive-thinking signatures in streaming — fixes dropped cryptographic signatures in multi-turn Claude conversations
-- [`#1675`](https://github.com/0xPlaygrounds/rig/pull/1675) &nbsp;fix Bedrock cache-point placement + empty-text reasoning conversion with signatures
-
-#### `byQuexo@ilert:~/oss$ npm publish && cargo publish`
-
-**[agent-approval-gate](https://github.com/byQuexo/agent-approval-gate)** — human-in-the-loop approval for LLM agent tool calls. Classify tools read/write, hold every write & destructive action behind an approver, and never cache a grant across turns.
-
-<p>
-  <a href="https://www.npmjs.com/package/agent-approval-gate"><img src="https://img.shields.io/npm/v/agent-approval-gate?style=flat-square&logo=npm&label=npm&labelColor=0d1117&color=cb3837" alt="npm" /></a>
-  <a href="https://crates.io/crates/agent-approval-gate"><img src="https://img.shields.io/crates/v/agent-approval-gate?style=flat-square&logo=rust&label=crates.io&labelColor=0d1117&color=3fb950" alt="crates.io" /></a>
-  <img src="https://img.shields.io/badge/tests-51%20passing-3fb950?style=flat-square&labelColor=0d1117" alt="tests" />
+<p align="center">
+  <a href="https://huggingface.co/spaces/Quexoo/docrag-bench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-live-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/link-live-light.svg" /><img src="assets/link-live-dark.svg" alt="Live demo docrag-bench" height="36" /></picture></a>&nbsp;
+  <a href="https://www.npmjs.com/package/agent-approval-gate"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-npm-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/link-npm-light.svg" /><img src="assets/link-npm-dark.svg" alt="npm agent-approval-gate" height="36" /></picture></a>&nbsp;
+  <a href="https://crates.io/crates/agent-approval-gate"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-cratesio-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/link-cratesio-light.svg" /><img src="assets/link-cratesio-dark.svg" alt="crates.io agent-approval-gate" height="36" /></picture></a>
 </p>
 
-- one shared policy format across **TypeScript & Rust** — 42 TS + 9 Rust tests, CI on both
-- drop-in adapters: **OpenAI · Anthropic · Gemini · AWS Bedrock · MCP · Vercel AI SDK · Rig**
-- [**incident-triage-demo**](https://github.com/byQuexo/incident-triage-demo) &nbsp;·&nbsp; a Gemini-powered on-call agent that asks before it acts
+<br />
 
-#### `byQuexo@ilert:~$ uptime --activity`
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/div-projects-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/div-projects-light.svg" /><img src="assets/div-projects-dark.svg" alt="Projects" width="100%" /></picture>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=byQuexo&theme=github-compact&hide_border=true&bg_color=0d1117&color=3fb950&line=58a6ff&point=f0f6fc&area=true&area_color=3fb950" width="100%" alt="contribution activity" />
+| | Project | What it does | Result |
+|:-:|:--|:--|:--|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="assets/i-docrag-bench-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/i-docrag-bench-light.svg" /><img src="assets/i-docrag-bench-dark.svg" alt="" width="36" height="36" /></picture> | **[docrag-bench](https://github.com/byQuexo/docrag-bench)**<br /><sub>Python</sub> | PDF question answering with verified citations, plus a benchmark of what actually helps. | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/m-docrag-bench-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/m-docrag-bench-light.svg" /><img src="assets/m-docrag-bench-dark.svg" alt="0.544 correct with verified citations" height="30" /></picture><br /><sub>correct with verified citations</sub> |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="assets/i-agent-approval-gate-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/i-agent-approval-gate-light.svg" /><img src="assets/i-agent-approval-gate-dark.svg" alt="" width="36" height="36" /></picture> | **[agent-approval-gate](https://github.com/byQuexo/agent-approval-gate)**<br /><sub>TypeScript · Rust</sub> | Human-in-the-loop approval for LLM agent tool calls. On npm and crates.io. | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/m-agent-approval-gate-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/m-agent-approval-gate-light.svg" /><img src="assets/m-agent-approval-gate-dark.svg" alt="51 tests, 42 TS + 9 Rust" height="30" /></picture><br /><sub>tests, 42 TS + 9 Rust</sub> |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="assets/i-Alert-Grouping-Evaluation-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/i-Alert-Grouping-Evaluation-light.svg" /><img src="assets/i-Alert-Grouping-Evaluation-dark.svg" alt="" width="36" height="36" /></picture> | **[Alert-Grouping-Evaluation](https://github.com/byQuexo/Alert-Grouping-Evaluation)**<br /><sub>Python</sub> | BSc dissertation: grouping Prometheus alerts with multilingual embeddings. | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/m-Alert-Grouping-Evaluation-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/m-Alert-Grouping-Evaluation-light.svg" /><img src="assets/m-Alert-Grouping-Evaluation-dark.svg" alt="0.91–0.95 F1 on EN / FR / ES" height="30" /></picture><br /><sub>F1 on EN / FR / ES</sub> |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="assets/i-incident-triage-demo-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/i-incident-triage-demo-light.svg" /><img src="assets/i-incident-triage-demo-dark.svg" alt="" width="36" height="36" /></picture> | **[incident-triage-demo](https://github.com/byQuexo/incident-triage-demo)**<br /><sub>TypeScript</sub> | On-call SRE agent on Gemini that asks before it acts. | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/m-incident-triage-demo-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/m-incident-triage-demo-light.svg" /><img src="assets/m-incident-triage-demo-dark.svg" alt="3 risk tiers, reads run, writes wait" height="30" /></picture><br /><sub>risk tiers, reads run, writes wait</sub> |
+
+<br />
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/div-rig-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/div-rig-light.svg" /><img src="assets/div-rig-dark.svg" alt="Upstream: Rig" width="100%" /></picture>
+
+<p align="center"><a href="https://github.com/0xPlaygrounds/rig">Rig</a> is the Rust LLM framework behind ilert AI's agentic LLM proxy. Three merged fixes · <a href="https://github.com/0xPlaygrounds/rig/pulls?q=is%3Apr+is%3Amerged+author%3AbyQuexo">all PRs</a></p>
+
+| PR | Change | Merged |
+|:--|:--|:--|
+| <a href="https://github.com/0xPlaygrounds/rig/pull/1725"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-1725-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/pr-1725-light.svg" /><img src="assets/pr-1725-dark.svg" alt="#1725" height="24" /></picture></a> | fix(mistral): expose cached and audio token fields in Usage | 4 May 2026 |
+| <a href="https://github.com/0xPlaygrounds/rig/pull/1683"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-1683-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/pr-1683-light.svg" /><img src="assets/pr-1683-dark.svg" alt="#1683" height="24" /></picture></a> | fix(bedrock): preserve adaptive-thinking signatures in streaming reasoning | 28 Apr 2026 |
+| <a href="https://github.com/0xPlaygrounds/rig/pull/1675"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-1675-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/pr-1675-light.svg" /><img src="assets/pr-1675-dark.svg" alt="#1675" height="24" /></picture></a> | fix(bedrock): handle adaptive-thinking interactions for prompt caching and reasoning conversion | 28 Apr 2026 |
+
+<br />
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/div-stack-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/div-stack-light.svg" /><img src="assets/div-stack-dark.svg" alt="Stack" width="100%" /></picture>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg" /><img src="assets/stack-dark.svg" alt="Rust, TypeScript, Python, AWS Bedrock, Qdrant, Hugging Face, MCP" height="36" /></picture>
+</p>
+
+<br />
 
 <img src="https://raw.githubusercontent.com/byQuexo/byQuexo/output/snake.svg" width="100%" alt="contribution snake" />
 
-<sub>`byQuexo@ilert:~$ exit` &nbsp;·&nbsp; thanks for dropping by 👋</sub>
+<!-- Optional, enable if it applies: -->
+<!-- Open to conversations about LLM agents in production. -->
