@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/byQuexo/ferrobot"><img src="https://raw.githubusercontent.com/byQuexo/ferrobot/main/docs/assets/demo.gif" alt="ferrobot demo: two agents answer in a group chat, an @-mention gets a Mermaid diagram, an agent replies with a live HTML countdown, Claude plan limits on the Usage page" width="800" /></a>
+  <a href="https://github.com/byQuexo/ferrobot"><img src="https://raw.githubusercontent.com/byQuexo/ferrobot/main/docs/assets/demo.gif" alt="ferrobot demo: you ask your main agent for a launch countdown page, approve the teammate it wants to create, and the new agent builds the page on its own computer and shares it live in the chat" width="800" /></a>
 </p>
 
 - **A computer per agent.** Each agent works in its own Docker sandbox with a persistent home, warm and cold sleep and snapshots.
@@ -32,6 +32,7 @@
 - **Many models.** Claude, any OpenAI-compatible API including local Ollama, OpenRouter, Codex, Gemini CLI, Bedrock and Vertex, or Claude Code on your own login.
 - **MCP connectors.** Remote MCP servers with token or OAuth sign-in; the daemon holds the tokens and lends the tools to agents.
 - **Voice calls.** Talk to an agent, or put several in one call room where they talk to each other.
+- **Traces and memory.** Every turn on a timeline, exported to Phoenix or Langfuse over OpenTelemetry; memories as Markdown notes in your Obsidian vault.
 
 <p align="center"><a href="https://github.com/byQuexo/ferrobot/releases">Download</a> &nbsp;·&nbsp; <a href="https://github.com/byQuexo/ferrobot#quickstart-docker--ollama-no-api-key">Quickstart</a></p>
 
