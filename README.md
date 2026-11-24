@@ -15,6 +15,28 @@
 
 <br />
 
+<h3 align="center"><a href="https://github.com/byQuexo/ferrobot">ferrobot</a></h3>
+
+<p align="center">
+  A self-hosted platform for a team of AI agents, each with its own sandboxed computer, mailbox, memory and routines.<br />
+  A Rust daemon and a desktop app for macOS and Windows.
+</p>
+
+<p align="center">
+  <a href="https://github.com/byQuexo/ferrobot"><img src="https://raw.githubusercontent.com/byQuexo/ferrobot/main/docs/assets/demo.gif" alt="ferrobot demo: two agents answer in a group chat, an @-mention gets a Mermaid diagram, an agent replies with a live HTML countdown, Claude plan limits on the Usage page" width="800" /></a>
+</p>
+
+- **A computer per agent.** Each agent works in its own Docker sandbox with a persistent home, warm and cold sleep and snapshots.
+- **Agents create agents.** A new teammate waits for your Approve/Decline card and never gets more tools than its creator.
+- **Keys never enter a sandbox.** Agents reach their model through the daemon's proxy, which adds the real key from the OS keychain.
+- **Many models.** Claude, any OpenAI-compatible API including local Ollama, OpenRouter, Codex, Gemini CLI, Bedrock and Vertex, or Claude Code on your own login.
+- **MCP connectors.** Remote MCP servers with token or OAuth sign-in; the daemon holds the tokens and lends the tools to agents.
+- **Voice calls.** Talk to an agent, or put several in one call room where they talk to each other.
+
+<p align="center"><a href="https://github.com/byQuexo/ferrobot/releases">Download</a> &nbsp;·&nbsp; <a href="https://github.com/byQuexo/ferrobot#quickstart-docker--ollama-no-api-key">Quickstart</a></p>
+
+<br />
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/div-projects-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/div-projects-light.svg" /><img src="assets/div-projects-dark.svg" alt="Projects" width="100%" /></picture>
 
 | | Project | What it does | Result |
